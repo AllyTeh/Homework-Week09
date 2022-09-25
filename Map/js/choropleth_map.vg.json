@@ -5,7 +5,7 @@
     "height": 400,
     "projection": {"type": "equalEarth"},
     "data": {
-      "url": "https://raw.githubusercontent.com/AllyTeh/Homework-Week09/main/Map/js/ne_110m_admin_0_countries.topojson?token=GHSAT0AAAAAABZFL4PY64BBQZO6X6TLVZ46YZQDFIQ",
+      "url": "https://raw.githubusercontent.com/AllyTeh/Homework-Week09/main/Map/js/ne_110m_admin_0_countries.topojson",
       "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
     },
     "transform": [
@@ -13,7 +13,7 @@
         "lookup": "properties.NAME",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/AllyTeh/Homework-Week09/main/Map/Data/monkeypox_df.csv?token=GHSAT0AAAAAABZFL4PYBQE4KFXSIYF5PS5WYZQEIJQ"
+            "url": "https://raw.githubusercontent.com/AllyTeh/Homework-Week09/main/Map/Data/monkeypox_df.csv"
           },
           "key": "Country",
           "fields": ["Active"]
