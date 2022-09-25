@@ -13,7 +13,7 @@
         "lookup": "properties.NAME",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/AllyTeh/Homework-Week09/main/Map/Data/monkeypox_df.csv"
+            "url": "https://raw.githubusercontent.com/AllyTeh/Homework-Week09/main/Map/Data/monkeypox_df.csv?token=GHSAT0AAAAAABZFL4PYBQE4KFXSIYF5PS5WYZQEIJQ"
           },
           "key": "Country",
           "fields": ["Active"]
